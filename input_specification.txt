@@ -1,0 +1,11 @@
+First line of input conatins the number of vertices in the graph of input NFA.
+Second line of input contains the number of edges in the graph of input NFA.
+Third line of input contains the initial or start state(vertex).
+Fourth line of input contains the number of final states int he graph of input NFA.
+Fifth line of input contains the space separated final states(vertices).
+Next (nuber of edges) lines contains the information about edges.
+These are space separated 3 integer values.
+First value specifies the outgoing node(vertex).
+Second value specifies the ingoing node(vertex).
+Third value specifies the character of input string on which the transition is taking place.(for example: on the set of input alphabets (0, 1). Third value can be 0 or 1).
+(The NFA specifications given in inpt.txt file accepts all strings over 0 and 1 in which third symbol from the right end is always zero).
